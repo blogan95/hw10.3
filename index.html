@@ -1,0 +1,241 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="hw10css.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="data/hw10.js"></script>
+    
+    <style>
+
+        body {
+            background-image: url("web/1924.jpg");
+            background-attachment: fixed;
+            
+        }
+        a:link {
+            color: white;
+            text-transform: uppercase;
+        }
+
+        #top {
+            background-image: url("web/white_tiles.png");
+            border: 1px solid;
+            width: 100%;
+            text-align: center;
+            text-transform: uppercase;
+            align-content:;
+            text-shadow: 2px 2px 2px #474744;
+            color: #d9bea1;
+        }
+
+        nav {
+            border: 1px solid white;
+            overflow: hidden;
+            display: inline;
+            padding-top: 5px;
+            padding: 10px;
+        }
+
+            nav a {
+                padding: 20px;
+                text-decoration: none;
+                text-transform: uppercase;
+                color: white;
+            }
+
+                nav a:hover {
+                    text-shadow: 2px 2px 2px #262625;
+                    color: white;
+                    text-decoration: none;
+                }
+
+        .moo {
+            float: left;
+            z-index: 30;
+            position: absolute;
+            top: 26px;
+            left: 78%;
+        }
+
+        #col1 {
+            width: 250px;
+            float: left;
+            border: 1px dotted black;
+            margin-left: 20px;
+            margin-right: 10px;
+            text-align: justify;
+            font-size: 11.5px;
+            line-height: 17px;
+            text-indent: 15px;
+            background-color: white;
+            border-radius: 15px;
+        }
+
+            #col1 h3 {
+                text-align: center;
+            }
+
+        h3,h4 {
+            text-transform: uppercase;
+        }
+       
+        
+
+        #cir {
+            margin-top: 20px;
+            align-content: center;
+            border-radius: 50%;
+        }
+
+        .COL-sm-4 {
+            float: left;
+            width: 33.33%;
+            padding: 20px;
+            margin: 10px;
+            border: 1px solid navajowhite;
+            border-radius: 13px;
+            text-align: justify;
+            background-color: rgba(136, 225, 226, 0.594);
+            text-indent: 10px;
+        }
+
+        op {
+            align-content: inherit;
+        }
+
+        footer {
+            align-content: flex-end;
+        }
+    </style>
+
+    <title> </title>
+</head> 
+
+<body>
+    <!--top-->
+    <div class="container-fluid">
+        <div id="top">
+            <h1>Welcome</h1>
+
+
+            <img class="moo" src="web/moop.png" />
+        </div>
+        <br />
+        <nav>
+            <a href="">home</a>
+            <a href="">about</a>
+            <a href="">contact</a>
+            <a href="">new</a>
+        </nav>
+    </div>
+    <br />
+    <br />
+
+
+    <!--COLUMN 1-->
+    <div class="container-fluid" id="col1">
+        <img class="img-responsive" src="web/metbh.jpg" id="cir" />
+        <h4>Brooklin Logan</h4>
+        <p>
+            I was born and raised in Cleveland, Ohio. I was accepted to go to high school at Cleveland School of the Arts, first as a theatre major and then as a creative writing major. When I graduated in 2013, I started my next fall semester as a freshman at Kent State University, where I majored in Teaching English as a Second Language (TESL) and minored in Japanese and in Education. The summer after my fourth year, I was able to study abroad at Nihon University in Tokyo, Japan.
+        </p>
+        <p>
+            Currently, I am participating in the Cleveland Codes program with Cuyahoga Community College to become a software developer.
+        </p>
+        <ul>
+            Cleveland, OH
+        </ul>
+    </div>
+
+    <div id="row">
+        <!--COLUMN2-->
+        <div class="COL-sm-4">
+            <!--"col2">-->
+            <h3>goals</h3>
+            <p>
+                I have always considered myself to be ambitious. Since I was twelve years old, my dream had been to visit Japan. Now that I have acheived that, I know that anything is possible.
+            </p>
+            <p>
+                In the next five years, I would like to get more involved in the community and help the younger generation in my city. I hope to go back to college and finish my bachelor's and get a job as a developer. Now that I am learning more about code, I hope to put more work into my personal project, which will be a branching narrative, visual novel style game that I have been tinkering with for awhile.
+            </p>
+            <h3>Contact</h3>
+
+            <fieldset class="well">
+                <form action="get">
+
+                    <p>
+                        <div class="left">From Name:</div>
+                        <div class="right"><input type="text" name="frname" /></div>
+                    </p>
+                    <p>
+                        <div class="left">
+                            From Email:
+                        </div>
+                        <div class="right"><input type="text" name="fremail" /></div>
+                    </p>
+                    <p>
+                        <div class="left">
+                            CC:
+                        </div>
+                        <div class="right"><input type="text" name="cc" /></div>
+                    </p>
+                    <p>
+                        <div class="left">
+                            Subject:
+                        </div>
+                        <div class="right"><input type="text" name="sub" /></div>
+                    </p><br />
+                    <div class="left">
+                        Message:
+                    </div>
+                    <div class="right"><textarea name="message" rows="10" cols="49"></textarea></div>
+
+
+                    <form action="get">
+                        <div id="button">
+                            <input type="image" src="web/done.png" />
+                        </div>
+                    </form>
+                </form>
+            </fieldset>
+
+        </div>
+
+        <!--COLUMN3-->
+        <div class="COL-sm-4">
+            <h3>interests</h3>
+            <p>
+                I have always been interested in learning languages. My love of language stretches to literature as well as learning new phonetics and cultures. <br /><br />
+                Some of my other interests include:
+            </p>
+            <ul>
+                <li>Music</li>
+                <li>Dance</li>
+                <li>Korean Dramas</li>
+                <li>Writing</li>
+                <li>Philosophy</li>
+                <li>Self Improvement</li>
+
+            </ul>
+            <section id="things">
+                <div id="gems">
+                    <button onclick="displayThings()">See my favorite things?</button>
+                </div>
+            </section>
+        </div>
+
+        <div class="COL-sm-4">
+            <h3>Extra</h3>
+            <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">“Well-behaved women seldom make history.” <br>― Laurel Thatcher Ulrich</p>&mdash; Motivational Quotes (@911well) <a href="https://twitter.com/911well/status/891455804209074177?ref_src=twsrc%5Etfw">July 30, 2017</a></blockquote>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+    </div>
+    
+
+</body> 
+</html >

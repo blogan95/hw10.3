@@ -1,0 +1,30 @@
+{
+    "gems": [
+        {
+            "name": "Opal",
+            "info": "Opal is a semi-transparent, iridescent gem associated with Libra and is the birthstone for October. It is said to represent healing, joy, and purification.",
+            "img": "web/opal.jpg"
+        },
+        {
+            "name": "Moonstone",
+            "info": "Moonstone is named for its pearly appearance that resembles the moon. It is known for being the Traveler's Stone, said to protect those traveling at night. ",
+            "img": "web/moonstone.jpg"
+        },
+        {
+            "name": "Lapis Lazuli",
+            "info": "Lapis Lazuli is known for an intense blue color and was popular in ancient Egypt. It represents wisdom, clarity, and intuition.",
+            "img": "web/lapis.jpg"
+        },
+        {
+            "name": "Amethyst",
+            "info": "Amethyst is a purple stone associated with Aquarius. It is the birthstone for February. It was used by Greeks and Romans to keep themselves sober.",
+            "img": "web/Amethyst.jpg"
+        },
+        {
+            "name": "Kyanite",
+            "info": "Kyanite is most commonly found in blue, but can be found in other colors as well. It is said to cause lucid dreams and aid communication.",
+            "img": "web/kyanite.jpg"
+        }
+
+    ]
+}
